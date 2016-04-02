@@ -77,6 +77,21 @@ app.use(function (err, req, res, next) {
 });
 ```
 
+## Alter user data before creating a new user
+
+Register a `beforeCreate` callback in options and modify/enrich the passed in user object with profile data contained in the jwt token:
+
+```js
+var auth = require('loopback-jwt')(app,{
+    secretKey: '<secret>',
+    model: '<model>',
+    beforeCreate: function(newUser, data) {
+      newUser.name = data.name;
+    }
+});
+```
+
+
 ## Contributors
 
  https://github.com/whoGloo/loopback-jwt/graphs/contributors
