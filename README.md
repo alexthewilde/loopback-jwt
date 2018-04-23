@@ -2,8 +2,6 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![Build Status][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
 [![Gratipay][gratipay-image]][gratipay-url]
 
   loopback-jwt is a node express middleware plugin to map [Json Web tokens](https://www.jwt.io) and [Loopback](https://strongloop.com/) users.
@@ -100,13 +98,9 @@ var auth = require('loopback-jwt')(app,{
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/connect.svg
-[npm-url]: https://npmjs.org/package/connect
-[travis-image]: https://img.shields.io/travis/senchalabs/connect/master.svg
-[travis-url]: https://travis-ci.org/senchalabs/connect
-[coveralls-image]: https://img.shields.io/coveralls/senchalabs/connect/master.svg
-[coveralls-url]: https://coveralls.io/r/senchalabs/connect
-[downloads-image]: https://img.shields.io/npm/dm/connect.svg
-[downloads-url]: https://npmjs.org/package/connect
+[npm-image]: https://img.shields.io/npm/v/loopback-jwt.svg
+[npm-url]: https://npmjs.org/package/loopback-jwt
+[downloads-image]: https://img.shields.io/npm/dm/loopback-jwt.svg
+[downloads-url]: https://npmjs.org/package/loopback-jwt
 [gratipay-image]: https://img.shields.io/gratipay/dougwilson.svg
 [gratipay-url]: https://www.gratipay.com/dougwilson/
